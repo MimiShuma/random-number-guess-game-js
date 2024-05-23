@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Guess Game</title>
+</head>
+
+<body onload="getRandomNumber(1, 10)">
+    <div class="container">
+        <label for="number">Enter a number from 1 to 10: </label>
+        <input type="number" name="number" id="number" />
+        <button type="button" onclick="guessRandomNumber('number', 'target')">Guess</button>
+        <span id="target"></span>
+    </div>
+
+    <script src="./random-number-guess-game.js"></script>
+</body>
+
+</html>
